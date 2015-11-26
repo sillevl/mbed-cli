@@ -1,0 +1,22 @@
+{
+  "name": "mbed-cli",
+  "version": "1.0.0",
+  "description": "cli for mbed using coap",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mbed",
+    "coap"
+  ],
+  "bin": {
+    "mbed": "app.js"
+  },
+  "author": "Sille Van Landschoot",
+  "license": "MIT",
+  "dependencies": {
+    "coap": "^0.12.1",
+    "commander": "^2.9.0"
+  }
+}
