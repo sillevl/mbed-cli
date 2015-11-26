@@ -1,5 +1,5 @@
 {
-  "name": "mbed-cli",
+  "name": "mbed-cli-example",
   "version": "1.0.0",
   "description": "cli for mbed using coap",
   "main": "app.js",
