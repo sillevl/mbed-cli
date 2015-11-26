@@ -4,7 +4,7 @@ var program = require('commander');
 var coap = require('coap');
 
 program
-  .version('1.0.1')
+  .version('1.0.2')
   .usage('command [settings] hostname')
   .option('-s, --host <hostname>', 'coap server hostname', 'localhost')
   .option('-p, --port <port>', 'coap server port', 5683 )
