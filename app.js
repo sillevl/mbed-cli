@@ -1,10 +1,10 @@
-// #!/usr/bin/env node
+#!/usr/bin/env node
 
 var program = require('commander');
 var coap = require('coap');
 
 program
-  .version('0.0.1')
+  .version('1.0.1')
   .option('-s, --host', 'hostname for the mbed')
   .option('-p, --port', 'hostname for the mbed')
 
